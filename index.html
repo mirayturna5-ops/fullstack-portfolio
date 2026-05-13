@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miray Sena Turna</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="progress"></div>
+
+<nav>
+  <span class="nav-logo">Portfolio</span>
+  <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.php">Admin</a></li>
+    </ul>
+  <button id="themeBtn" aria-label="toggle theme">◐</button>
+</nav>
+
+<section id="home" class="hero">
+  <div class="hero-center">
+    <div class="hero-card">
+      <h1>Miray Sena Turna</h1>
+      <div class="hero-badge">Software Engineering Student</div>
+      <div class="hero-links">
+        <a href="#projects" class="cta">See my work</a>
+        <a href="cv.pdf" download class="cta-ghost">Download CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-label">01 / about</div>
+  <h2 class="section-title">About me</h2>
+  <div class="about-card">
+    <p>I am a third-year Software Engineering student at Haliç University with a strong interest in software development,web technologies and artificial intelligence.</p>
+    <p>I have experience with programming languages such as Python,Java and C++.I continue to improve my skills by working on academic and personal projects.I am also developing my knowledge in frontend and backend technologies,databases and modern software development practices.</p>
+    <p>I am passionate about creating functional and user-friendly applications while gaining experience through collaborative and individual projects.</p>
+  </div>
+</section>
+
+<section id="skills" class="section section-alt">
+  <div class="section-label">02 / skills</div>
+  <h2>What I work with</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <span class="skill-card-icon">{ }</span>
+        <h3>Frontend</h3>
+      </div>
+      <div class="skill-bars">
+        <div class="sbar-row"><span>HTML</span><div class="sbar"><div class="sbar-fill" style="--w:92%"></div></div></div>
+        <div class="sbar-row"><span>CSS</span><div class="sbar"><div class="sbar-fill" style="--w:85%"></div></div></div>
+        <div class="sbar-row"><span>JavaScript</span><div class="sbar"><div class="sbar-fill" style="--w:74%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <span class="skill-card-icon">⚙</span>
+        <h3>Programming Languages</h3>
+      </div>
+      <div class="skill-bars">
+        <div class="sbar-row"><span>C++</span><div class="sbar"><div class="sbar-fill" style="--w:70%"></div></div></div>
+        <div class="sbar-row"><span>Python</span><div class="sbar"><div class="sbar-fill" style="--w:75%"></div></div></div>
+        <div class="sbar-row"><span>Java</span><div class="sbar"><div class="sbar-fill" style="--w:60%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <span class="skill-card-icon">∑</span>
+        <h3>Core CS</h3>
+      </div>
+      <div class="skill-bars">
+        <div class="sbar-row"><span>Algorithms</span><div class="sbar"><div class="sbar-fill" style="--w:78%"></div></div></div>
+        <div class="sbar-row"><span>Data Structures</span><div class="sbar"><div class="sbar-fill" style="--w:75%"></div></div></div>
+        <div class="sbar-row"><span>Numerical Analysis</span><div class="sbar"><div class="sbar-fill" style="--w:68%"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <span class="skill-card-icon">文</span>
+        <h3>Languages</h3>
+      </div>
+      <div class="skill-bars">
+        <div class="sbar-row"><span>Turkish</span><div class="sbar"><div class="sbar-fill" style="--w:100%"></div></div></div>
+        <div class="sbar-row"><span>English</span><div class="sbar"><div class="sbar-fill" style="--w:80%"></div></div></div>
+        <div class="sbar-row"><span>German</span><div class="sbar"><div class="sbar-fill" style="--w:60%"></div></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-label">03 / projects</div>
+  <h2>Things I've built.</h2>
+
+  <!-- 🔥 ARTIK SABİT PROJELER YOK -->
+  <div class="projects-list" id="projectsList">
+    <!-- JS burayı DB’den dolduracak -->
+  </div>
+
+</section>
+
+<section id="contact" class="section section-alt">
+  <div class="section-label">04 / contact</div>
+  <div class="contact-grid">
+    <div class="contact-left">
+      <h2>Let's talk.</h2>
+      <p>Whether it's an internship, a collaboration, or just a chat — my inbox is open.</p>
+    </div>
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+      <button type="submit">Send message →</button>
+      <p id="formMessage"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Miray Sena Turna</span>
+  <span>Software Engineering Student</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
